@@ -3,6 +3,6 @@ class TodosController < InheritedResources::Base
   respond_to :html, :json
   
   def backbone
-    render :backbone, :layout => false
+    render :backbone, :layout => "application"
   end
 end

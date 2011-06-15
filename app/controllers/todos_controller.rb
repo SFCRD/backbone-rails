@@ -1,3 +1,3 @@
-class TodosController < InheritedViews::Base
+class TodosController < InheritedResources::Base
   actions :all
 end

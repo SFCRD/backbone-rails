@@ -2,10 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
-gem 'inherited_resources'
-gem 'formtastic'
-gem 'tabletastic'
-gem 'haml'
+gem 'inherited_resources',  '1.2.2'
+gem 'formtastic',           '1.2.4'
+gem 'tabletastic',          '0.2.2'
+gem 'haml',                 '3.1.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

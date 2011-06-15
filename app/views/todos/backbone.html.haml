@@ -1,4 +1,9 @@
 %h1 Do Work, Son!
-= javascript_include_tag 'json2', 'underscore', 'backbone', 'todos'
+= javascript_include_tag 'json2', 'underscore', 'backbone', 'mustache', 'todos'
 %ul#todos
 = link_to "Back to HTML interface", todos_path
+
+%script#todo-template{ :type => "text/x-mustache-template" }
+	%li.todo
+		%p {{content}}
+		%p Done: {{done}}

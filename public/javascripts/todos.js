@@ -22,7 +22,7 @@
     
     Todos.each( function( todo )
     {
-      $( '#todos' ).append( '<li class="todo">' + todo.get( 'content' ) + '</li>' );
+      $( '#todos' ).append( Mustache.to_html( $( '#todo-template' ).html( ), todo.attributes ) );
     } );
     
     

@@ -3,6 +3,8 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.7'
 
 gem 'inherited_resources'
+gem 'formtastic'
+gem 'tabletastic'
 gem 'haml'
 
 # Bundle edge Rails instead:

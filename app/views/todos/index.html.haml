@@ -1,1 +1,9 @@
 %h1 Todos!
+%ul
+  - @todos.each do |todo|
+    %li
+      %p= todo.content
+      %p
+        Done:
+        = todo.done
+      %p= link_to "Show", todo_path( todo )

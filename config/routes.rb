@@ -1,7 +1,7 @@
 BackboneRails::Application.routes.draw do
   resources :todos
   
-  root :to => 'todos#index'
+  root :to => 'todos#backbone'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

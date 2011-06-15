@@ -32,19 +32,12 @@ GEM
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    formtastic (1.2.4)
-      actionpack (>= 2.3.7)
-      activesupport (>= 2.3.7)
-      i18n (~> 0.4)
+    haml (3.1.1)
     has_scope (0.5.0)
     i18n (0.5.0)
     inherited_resources (1.2.2)
       has_scope (~> 0.5.0)
       responders (~> 0.6.0)
-    inherited_views (0.0.2)
-      formtastic (>= 0.9.8)
-      inherited_resources (>= 1.0.6)
-      will_paginate (>= 2.3.12)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -77,13 +70,12 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.28)
-    will_paginate (2.3.15)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
   inherited_resources
-  inherited_views
   rails (= 3.0.7)
   sqlite3

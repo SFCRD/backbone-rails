@@ -40,3 +40,6 @@ module BackboneRails
     config.filter_parameters += [:password]
   end
 end
+
+# For Backbone
+ActiveRecord::Base.include_root_in_json = false

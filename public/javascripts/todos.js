@@ -16,6 +16,19 @@
       model : Todo
     } ) )( );
   
-  console.log( Todos.fetch( ) );
+  Todos.bind( 'refresh', function( event )
+  {
+    
+    
+    Todos.each( function( todo )
+    {
+      $( '#todos' ).append( '<li class="todo">' + todo.get( 'content' ) + '</li>' );
+    } );
+    
+    
+    
+  } );
   
+  Todos.fetch( );
+
 } )( jQuery );

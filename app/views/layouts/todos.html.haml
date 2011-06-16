@@ -1,11 +1,15 @@
 !!!
 %html
-  %head
-    %title Backbone/Rails
-    = stylesheet_link_tag :all
-    = javascript_include_tag :defaults
-    = csrf_meta_tag
-  %body
-    = yield
-    = render :partial => 'todos/navigation'
-    = link_to "Back to JS interface", root_path
+	%head
+		%title Backbone/Rails
+		= stylesheet_link_tag :all
+		= javascript_include_tag :defaults
+		= csrf_meta_tag
+	%body
+		%div#container
+			= yield
+			%nav
+				= render :partial => 'todos/navigation'
+				= link_to "Back to JS interface", root_path
+			%footer
+				%p A small backbones-rails project

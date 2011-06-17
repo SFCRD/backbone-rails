@@ -12,6 +12,7 @@ gem 'jquery-rails',         '1.0.5'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'mongrel'
 
 # Use unicorn as the web server
 # gem 'unicorn'

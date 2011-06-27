@@ -7,7 +7,7 @@ gem 'formtastic',           '1.2.4'
 gem 'tabletastic',          '0.2.2'
 gem 'haml',                 '3.1.1'
 gem 'jquery-rails',         '1.0.5'
-
+gem 'compass',              '0.11.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
